@@ -60,6 +60,19 @@ conky.text = [[
       "separator": true,
       "separator_block_width": 0
     },
+    {
+      "full_text": " Battery: ${battery} ",
+      "color": "\#fdf6e3",
+      "separator": true,
+      "separator_block_width": 0
+    },
+    {
+      "full_text": " | ",
+      "color": "\#fdf6e3",
+      "background": "\#2F2F2F",
+      "separator": true,
+      "separator_block_width": 0
+    },
 #   {
 #     #check name of ethernet/wireless with ip addr or ifconfig
 #     "full_text": "  up: ${upspeed wlo1} down: ${downspeed wlo1} ",

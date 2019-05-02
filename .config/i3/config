@@ -412,6 +412,9 @@ for_window [class="Vivaldi-stable"] focus
 # Change keys
 exec --no-startup-id xmodmap ~/.Xmodmap
 
+# Fix scroll
+exec --no-startup-id ~/tweaks/fix_scroll.sh
+
 #file manager
 #exec --no-startup-id thunar
 #exec --no-startup-id nemo
