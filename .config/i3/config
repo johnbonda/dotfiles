@@ -409,6 +409,9 @@ for_window [class="Vivaldi-stable"] focus
 #exec --no-startup-id geany
 #exec --no-startup-id atom
 
+# Change keys
+exec --no-startup-id xmodmap ~/.Xmodmap
+
 #file manager
 #exec --no-startup-id thunar
 #exec --no-startup-id nemo
@@ -473,8 +476,8 @@ exec --no-startup-id clipit
 exec --no-startup-id feh --bg-fill ~/Pictures/wallpaper.jpg
 
 #Conky
-exec --no-startup-id conky -c ~/.config/i3/system-overview
-exec --no-startup-id conky -c ~/.config/i3/system-shortcuts
+#exec --no-startup-id conky -c ~/.config/i3/system-overview
+#exec --no-startup-id conky -c ~/.config/i3/system-shortcuts
 
 
 #####################################################################################################################
