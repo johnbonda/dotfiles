@@ -12,6 +12,8 @@ Plug 'lifepillar/vim-solarized8'
 Plug 'altercation/vim-colors-solarized'
 Plug 'tpope/vim-surround'
 Plug 'kien/ctrlp.vim'
+Plug 'ternjs/tern_for_vim', { 'do' : 'npm install' }
+Plug 'valloric/youcompleteme'
 call plug#end()
 
 " Setting up a seperate directory for vim swap files
@@ -68,3 +70,7 @@ nnoremap <C-H> <C-W><C-H>
 if (has("termguicolors"))
   set termguicolors
 endif
+
+" --AUTOCOMPLETION--
+filetype plugin on
+set omnifunc=syntaxcomplete#Complete
