@@ -1,18 +1,17 @@
 " Vim-Plug plugins 
 call plug#begin('~/.vim/plugged')
-Plug 'tpope/vim-fugitive'
+"Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/nerdtree'
-Plug 'kaicataldo/material.vim'
+"Plug 'kaicataldo/material.vim'
 Plug 'itchyny/lightline.vim'
-Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
-" Plug 'jiangmiao/auto-pairs'
-Plug 'airblade/vim-gitgutter'
-Plug 'lifepillar/vim-solarized8'
+"Plug 'jiangmiao/auto-pairs'
+"Plug 'airblade/vim-gitgutter'
+"Plug 'lifepillar/vim-solarized8'
 Plug 'altercation/vim-colors-solarized'
 Plug 'tpope/vim-surround'
 Plug 'kien/ctrlp.vim'
-Plug 'ternjs/tern_for_vim', { 'do' : 'npm install' }
+"Plug 'ternjs/tern_for_vim', { 'do' : 'npm install' }
 Plug 'valloric/youcompleteme'
 call plug#end()
 
@@ -21,9 +20,9 @@ set swapfile
 set dir=~/.vim/vimSwapFiles
 
 let g:lightline = {
-      \ 'colorscheme': 'material_vim',
+      \ 'colorscheme': 'solarized',
       \ }
-let g:material_theme_style = 'dark'
+"let g:material_theme_style = 'dark'
 
 " Disabling CtrlP switching to the nearest .git
 let g:ctrlp_working_path_mode = 0 
@@ -38,7 +37,8 @@ set number
 set relativenumber
 syntax on
 set background=dark
-colorscheme material
+"set background=light
+colorscheme solarized
 
 " To avoid needing to save before switching buffers
 set hidden
@@ -72,5 +72,9 @@ if (has("termguicolors"))
 endif
 
 " --AUTOCOMPLETION--
-filetype plugin on
-set omnifunc=syntaxcomplete#Complete
+"filetype plugin on
+"set omnifunc=syntaxcomplete#Complete
+
+" Color of youcompleteme
+highlight Pmenu ctermfg=2 ctermbg=3 guifg=#154360 guibg=#85c1e9
+highlight PmenuSel ctermfg=2 ctermbg=3 guifg=#ffffff guibg=#0000ff
