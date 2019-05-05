@@ -786,7 +786,7 @@ for_window [class="^.*"] border pixel 5
 gaps inner 10
 gaps outer 10
 #smart_gaps on
-smart_borders on
+#smart_borders on
 
 
 
@@ -925,7 +925,7 @@ colors {
 # class                 border  backgr. text    indicator
 client.placeholder      #242424 #242424 #242424
 client.background       #242424 #242424 #242424
-client.focused          #FF0000 #FFFFFF #e5e5e5 #4A4A4A
+client.focused          #FF0000 #0AE6FF #e5e5e5 #4A4A4A
 client.unfocused        #222222 #222222 #aaaaaa #222222
 client.focused_inactive #222222 #222222 #a9a9a9 #222222
 client.urgent           #d42121 #d42121 #f7f7f7 #d42121
