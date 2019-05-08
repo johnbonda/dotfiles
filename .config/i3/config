@@ -858,7 +858,7 @@ exec_always --no-startup-id compton --config ~/.config/i3/compton.conf
 
 bar {
 
-    #mode hide
+    mode dock
     height 25
     workspace_buttons yes
     font pango:Noto Sans 14

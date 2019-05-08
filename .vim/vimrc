@@ -78,3 +78,6 @@ endif
 " Color of youcompleteme
 highlight Pmenu ctermfg=2 ctermbg=3 guifg=#154360 guibg=#85c1e9
 highlight PmenuSel ctermfg=2 ctermbg=3 guifg=#ffffff guibg=#0000ff
+
+" Use the find command recursively 
+set path=.,/usr/include,,**
