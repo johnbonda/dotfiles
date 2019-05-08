@@ -153,7 +153,7 @@ bindsym $mod+F12 exec --no-startup-id rofi -show run -font "Noto Sans 13"
 
 
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec --no-startup-id "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+#bindsym $mod+Shift+e exec --no-startup-id "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
 
 #Press $mod (super) and X to exit - check toolbar for next choices
@@ -926,7 +926,7 @@ colors {
 client.placeholder      #242424 #242424 #242424
 client.background       #242424 #242424 #242424
 #client.focused          #FF0000 #0AE6FF #e5e5e5 #4A4A4A
-client.focused          #FF0000 #000000 #e5e5e5 #4A4A4A
+client.focused          #FFFFFF #00F6FF #e5e5e5 #00F6FF
 client.unfocused        #222222 #222222 #aaaaaa #222222
 client.focused_inactive #222222 #222222 #a9a9a9 #222222
 client.urgent           #d42121 #d42121 #f7f7f7 #d42121

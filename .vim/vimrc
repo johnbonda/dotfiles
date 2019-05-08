@@ -33,7 +33,7 @@ let g:ctrlp_custom_ignore = {
   \ 'file': '\.so$\|\.dat$|\.DS_Store$'
 \ }
 
-set number
+"set number
 set relativenumber
 syntax on
 set background=dark
