@@ -13,12 +13,24 @@ Plug 'tpope/vim-surround'
 Plug 'kien/ctrlp.vim'
 "Plug 'ternjs/tern_for_vim', { 'do' : 'npm install' }
 Plug 'valloric/youcompleteme'
+Plug 'vim-syntastic/syntastic'
 call plug#end()
 
 " Setting up a seperate directory for vim swap files
 set swapfile
 set dir=~/.vim/vimSwapFiles
 
+" Syntastic recommended settings
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+" let g:syntastic_always_populate_loc_list = 1
+" let g:syntastic_auto_loc_list = 1
+" let g:syntastic_check_on_open = 1
+" let g:syntastic_check_on_wq = 0
+
+" Lightline settings
 let g:lightline = {
       \ 'colorscheme': 'solarized',
       \ }
