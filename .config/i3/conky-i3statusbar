@@ -48,7 +48,7 @@ conky.text = [[
 #     "separator_block_width": 0
 #   },
     {
-      "full_text": "  ${mem}/${memmax} (${memperc}%) ",
+      "full_text": "${mem}/${memmax} (${memperc}%) ",
       "color": "\#fdf6e3",
       "separator": true,
       "separator_block_width": 0
@@ -75,7 +75,7 @@ conky.text = [[
     },
 #   {
 #     #check name of ethernet/wireless with ip addr or ifconfig
-#     "full_text": "  up: ${upspeed wlo1} down: ${downspeed wlo1} ",
+#     "full_text": "  up: ${upspeed wlo1} down: ${downspeed wlo1} ",
 #     "color": "\#fdf6e3",
 #     "separator": true,
 #     "separator_block_width": 0
@@ -88,13 +88,13 @@ conky.text = [[
 #     "separator_block_width": 0
 #   },
     {
-      "full_text": "  ${time %a, %d/%m/%y} ",
+      "full_text": "${time %a, %d/%m/%y} ",
       "color": "\#fdf6e3",
       "separator": true,
       "separator_block_width": 0
     },
     {
-      "full_text": "  ${time %H:%M:%S} ",
+      "full_text": "${time %H:%M:%S} ",
       "color": "\#fdf6e3",
       "separator": true,
       "separator_block_width": 0
