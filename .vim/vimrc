@@ -3,7 +3,7 @@ call plug#begin('~/.vim/plugged')
 "Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/nerdtree'
 "Plug 'kaicataldo/material.vim'
-Plug 'itchyny/lightline.vim'
+"Plug 'itchyny/lightline.vim'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 "Plug 'jiangmiao/auto-pairs'
 "Plug 'airblade/vim-gitgutter'
@@ -14,6 +14,8 @@ Plug 'kien/ctrlp.vim'
 "Plug 'ternjs/tern_for_vim', { 'do' : 'npm install' }
 Plug 'valloric/youcompleteme'
 Plug 'vim-syntastic/syntastic'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
 " Setting up a seperate directory for vim swap files
@@ -30,10 +32,15 @@ set statusline+=%*
 " let g:syntastic_check_on_open = 1
 " let g:syntastic_check_on_wq = 0
 
+" Airline setting
+let g:airline_theme='solarized'
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_solarized_normal_green = 1
+
 " Lightline settings
-let g:lightline = {
-      \ 'colorscheme': 'solarized',
-      \ }
+"let g:lightline = {
+"      \ 'colorscheme': 'solarized',
+"      \ }
 "let g:material_theme_style = 'dark'
 
 " Disabling CtrlP switching to the nearest .git
@@ -93,3 +100,7 @@ highlight PmenuSel ctermfg=2 ctermbg=3 guifg=#ffffff guibg=#0000ff
 
 " Use the find command recursively 
 set path=.,/usr/include,,**
+
+" Enable folding
+set foldmethod=indent
+set foldlevel=99
