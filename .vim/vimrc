@@ -14,8 +14,8 @@ Plug 'kien/ctrlp.vim'
 "Plug 'ternjs/tern_for_vim', { 'do' : 'npm install' }
 Plug 'valloric/youcompleteme'
 Plug 'vim-syntastic/syntastic'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+"Plug 'vim-airline/vim-airline'
+"Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
 " Setting up a seperate directory for vim swap files
@@ -23,9 +23,12 @@ set swapfile
 set dir=~/.vim/vimSwapFiles
 
 " Syntastic recommended settings
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
+"set statusline+=%#warningmsg#
+"set statusline+=%{SyntasticStatuslineFlag()}
+"set statusline+=%*
+
+" Other syntastic settings
+let g:syntastic_python_python_exec = 'python3'
 
 " let g:syntastic_always_populate_loc_list = 1
 " let g:syntastic_auto_loc_list = 1
@@ -33,10 +36,10 @@ set statusline+=%*
 " let g:syntastic_check_on_wq = 0
 
 " Airline setting
-let g:airline_theme='solarized'
-let g:airline#extensions#tabline#enabled = 1
-let g:airline_solarized_normal_green = 1
-let g:airline_powerline_fonts = 1
+"let g:airline_theme='solarized'
+"let g:airline#extensions#tabline#enabled = 1
+"let g:airline_solarized_normal_green = 1
+"let g:airline_powerline_fonts = 1
 
 " Lightline settings
 "let g:lightline = {
