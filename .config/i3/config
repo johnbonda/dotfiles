@@ -500,7 +500,7 @@ bindsym control+mod1+m exec --no-startup-id mate-control-center
 
 
 # terminal
-bindsym $mod+Return exec --no-startup-id gnome-terminal;focus
+bindsym $mod+Return exec --no-startup-id st;focus
 bindsym control+mod1+t exec --no-startup-id gnome-terminal; focus
 
 #System monitor
