@@ -112,11 +112,11 @@ export LC_CTYPE=en_US.UTF-8
 
 #xcape -t 0 -e 'Hyper_L=Escape'
 
-bindkey '^r' history-incremental-search-backward
-
 # Vim mode
 bindkey -v
 export KEYTIMEOUT=1
+
+bindkey '^r' history-incremental-search-backward
 
 precmd() { RPROMPT="" }
 function zle-line-init zle-keymap-select {
