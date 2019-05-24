@@ -10,5 +10,5 @@ add mod1 = Alt_R Alt_L Meta_R Meta_L
 add control = Control_R Control_L
 
 clear Lock
-keycode 66 = Hyper_L
-add mod4 = Hyper_L
+keycode 66 = Escape NoSymbol Escape
+add mod4 = Escape

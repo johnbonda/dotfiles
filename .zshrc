@@ -110,7 +110,7 @@ export NVM_DIR="$HOME/.nvm"
 export LANG=en_US.UTF-8
 export LC_CTYPE=en_US.UTF-8
 
-xcape -t 0 -e 'Hyper_L=Escape'
+#xcape -t 0 -e 'Hyper_L=Escape'
 
 # Vim mode
 bindkey -v
