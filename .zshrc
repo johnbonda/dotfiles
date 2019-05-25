@@ -131,5 +131,8 @@ zle -N zle-keymap-select
 export KEYTIMEOUT=1
 
 # AutoSuggestions Fix
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=5'
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=7'
 bindkey '^ ' autosuggest-accept
+
+# Autostart script
+./scripts/autostart.sh
