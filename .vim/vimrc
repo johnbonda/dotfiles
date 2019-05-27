@@ -109,3 +109,6 @@ set path=.,/usr/include,,**
 " Enable folding
 set foldmethod=indent
 set foldlevel=99
+
+" Highlight searches
+set hlsearch
