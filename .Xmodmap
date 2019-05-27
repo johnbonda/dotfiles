@@ -3,12 +3,12 @@ clear mod1
 
 keycode  64 = Control_L NoSymbol Control_L
 keycode  37 = Alt_L Meta_L Alt_L Meta_L
-keycode 108 = Control_R NoSymbol Control_R
+keycode 108 = Escape NoSymbol Escape
 keycode 105 = Alt_R Meta_R Alt_R Meta_R
 
 add mod1 = Alt_R Alt_L Meta_R Meta_L
 add control = Control_R Control_L
 
 clear Lock
-keycode 66 = Escape NoSymbol Escape
-add mod4 = Escape
+keycode 66 = Hyper_L
+add mod4 = Hyper_L
