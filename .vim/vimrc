@@ -111,4 +111,4 @@ set foldmethod=indent
 set foldlevel=99
 
 " Highlight searches
-set hlsearch
+" set hlsearch
