@@ -346,6 +346,8 @@ globalkeys = gears.table.join(
 
     -- My Programs
     awful.key({ modkey, }, "d", function () awful.util.spawn("dmenu_run") end),
+    awful.key({ modkey, }, "F6", function () awful.util.spawn("amixer set 'Master' 1%-") end),
+    awful.key({ modkey, }, "F7", function () awful.util.spawn("amixer set 'Master' 1%+") end),
 
     -- Prompt
     awful.key({ modkey },            "r",     function () awful.screen.focused().mypromptbox:run() end,
