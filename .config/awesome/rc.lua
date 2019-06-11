@@ -263,8 +263,11 @@ root.buttons(gears.table.join(
 ))
 -- }}}
 
+awful.spawn.with_shell("~/scripts/autostart.sh")
+
 -- {{{ Key bindings
 globalkeys = gears.table.join(
+    awful.key({ }, "Print", function () awful.util.spawn("deepin-screenshot -n", false) end),
     awful.key({ modkey,           }, "s",      hotkeys_popup.show_help,
               {description="show help", group="awesome"}),
     awful.key({ modkey,           }, "Left",   awful.tag.viewprev,
@@ -527,6 +530,8 @@ awful.rules.rules = {
     { rule = { class = "Thunar" },
       properties = { screen = 1, tag = tag7} },
     { rule = { class = "zoom" },
+      properties = { screen = 1, tag = tag9} },
+    { rule = { class = "Skype" },
       properties = { screen = 1, tag = tag9} },
 }
 -- }}}

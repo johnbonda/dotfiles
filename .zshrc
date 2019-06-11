@@ -101,6 +101,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias python3=python
 
 # From .bashrc
 export NVM_DIR="$HOME/.nvm"
@@ -135,4 +136,4 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=7'
 bindkey '^ ' autosuggest-accept
 
 # Autostart script
-./scripts/autostart.sh
+#./scripts/autostart.sh
