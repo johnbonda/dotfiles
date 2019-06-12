@@ -485,7 +485,8 @@ awful.rules.rules = {
                      keys = clientkeys,
                      buttons = clientbuttons,
                      screen = awful.screen.preferred,
-                     placement = awful.placement.no_overlap+awful.placement.no_offscreen
+                     placement = awful.placement.no_overlap+awful.placement.no_offscreen,
+                     size_hints_honor = false
      }
     },
 
@@ -526,6 +527,8 @@ awful.rules.rules = {
     { rule = { class = "Postman" },
       properties = { screen = 1, tag = tag5} },
     { rule = { class = "Spotify" },
+      properties = { screen = 1, tag = tag8} },
+    { rule = { class = "spotify" },
       properties = { screen = 1, tag = tag8} },
     { rule = { class = "Thunar" },
       properties = { screen = 1, tag = tag7} },
