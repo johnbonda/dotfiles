@@ -129,7 +129,7 @@ function zle-line-init zle-keymap-select {
 zle -N zle-line-init
 zle -N zle-keymap-select
 
-export KEYTIMEOUT=1
+#export KEYTIMEOUT=1
 
 # AutoSuggestions Fix
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=7'

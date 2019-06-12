@@ -210,7 +210,7 @@ awful.screen.connect_for_each_screen(function(s)
     tag6 = "6.Stuff"
     tag7 = "7.File Manager"
     tag8 = "8.Spotify"
-    tag9 = "9.Zoom"
+    tag9 = "9.Calling"
 
     -- Each screen has its own tag table.
     awful.tag({ tag1, tag2, tag3, tag4, tag5, tag6, tag7, tag8,  tag9}, s, awful.layout.layouts[1])
