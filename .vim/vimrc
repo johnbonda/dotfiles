@@ -8,7 +8,6 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 "Plug 'jiangmiao/auto-pairs'
 "Plug 'airblade/vim-gitgutter'
 "Plug 'lifepillar/vim-solarized8'
-Plug 'altercation/vim-colors-solarized'
 Plug 'tpope/vim-surround'
 Plug 'kien/ctrlp.vim'
 "Plug 'ternjs/tern_for_vim', { 'do' : 'npm install' }
@@ -57,10 +56,11 @@ let g:ctrlp_custom_ignore = {
   \ 'file': '\.so$\|\.dat$|\.DS_Store$'
 \ }
 
-"set number
+set number
 set relativenumber
 syntax on
 set background=dark
+set nohlsearch
 "set background=light
 colorscheme gruvbox
 
@@ -83,7 +83,7 @@ set splitbelow
 set splitright
 
 " Mappings
-nmap <F6> :NERDTreeToggle<CR>
+nmap <C-N> :NERDTreeToggle<CR>
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
