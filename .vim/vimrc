@@ -11,7 +11,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-surround'
 Plug 'kien/ctrlp.vim'
 "Plug 'ternjs/tern_for_vim', { 'do' : 'npm install' }
-Plug 'valloric/youcompleteme'
+"Plug 'valloric/youcompleteme'
 Plug 'vim-syntastic/syntastic'
 "Plug 'vim-airline/vim-airline'
 "Plug 'vim-airline/vim-airline-themes'
