@@ -116,9 +116,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+#Autoexec scripts
+source ~/scripts/autoexec.sh
 
-export LANG=en_US.UTF-8
-export LC_CTYPE=en_US.UTF-8
+#Fix color
+export LS_COLORS=$LS_COLORS:'ow=1;34:';
