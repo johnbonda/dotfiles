@@ -121,3 +121,6 @@ source ~/scripts/autoexec.sh
 
 #Fix color
 export LS_COLORS=$LS_COLORS:'ow=1;34:';
+
+#Add vi control in prompt
+set -o vi
