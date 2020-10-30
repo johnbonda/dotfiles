@@ -17,6 +17,7 @@ Plug 'vim-syntastic/syntastic'
 "Plug 'vim-airline/vim-airline-themes'
 Plug 'morhetz/gruvbox'
 Plug 'scrooloose/nerdcommenter'
+Plug 'pangloss/vim-javascript'
 call plug#end()
 
 " Setting up a seperate directory for vim swap files
@@ -89,7 +90,7 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
-let mapleader = ","
+let mapleader = " "
 
 "Based on Vim patch 7.4.1770 (`guicolors` option) < https://github.com/vim/vim/commit/8a633e3427b47286869aa4b96f2bfc1fe65b25cd >
 " < https://github.com/neovim/neovim/wiki/Following-HEAD#20160511 >
@@ -117,3 +118,5 @@ set foldlevel=99
 
 " NerdCommenter
 let g:NERDDefaultAlign = 'start'
+nmap <C-_>   <Plug>NERDCommenterToggle
+vmap <C-_>   <Plug>NERDCommenterToggle<CR>gv
