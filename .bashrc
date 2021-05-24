@@ -116,6 +116,16 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# Custom bash settings
+set -o vi
+
+# Environment Variables
+export MAVEN_HOME=/home/johnbonda/devtools/apache-maven-3.8.1
+export M2_HOME=$MAVEN_HOME
+export EDITOR=vim
+
+# Path exports
+export PATH=$PATH:/home/johnbonda/devtools/jdk-11/bin
+export PATH=$PATH:/home/johnbonda/devtools/idea-IC-211.7142.45/bin
+export PATH=$PATH:$MAVEN_HOME/bin
+export PATH=$PATH:/home/johnbonda/.bin
