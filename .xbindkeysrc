@@ -45,12 +45,12 @@
 # Workspace Up
 #"xte 'keydown Super_L' 'key Up' 'keyup Super_L' 'keyup Control_L'"
 "xte 'keydown Super_L' 'key Up'"
-   Mod4 + b:4
+   Mod4 + b:3
 
 # Workspace Down
 #"xte 'keydown Super_L' 'key Down' 'keyup Super_L' 'keyup Control_L'"
 "xte 'keydown Super_L' 'key Down'"
-   Mod4 + b:5
+   Mod4 + b:1
 
 # set directly keycode (here control + f with my keyboard)
 #"xterm"

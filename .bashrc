@@ -129,3 +129,4 @@ export PATH=$PATH:/home/johnbonda/devtools/jdk-11/bin
 export PATH=$PATH:/home/johnbonda/devtools/idea-IC-211.7142.45/bin
 export PATH=$PATH:$MAVEN_HOME/bin
 export PATH=$PATH:/home/johnbonda/.bin
+export PATH=$PATH:/home/johnbonda/devtools/VSCode-linux-x64/bin

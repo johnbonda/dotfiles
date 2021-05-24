@@ -1,0 +1,53 @@
+{
+  "workbench.colorTheme": "Community Material Theme Darker",
+  "editor.fontFamily": "Fira Mono Medium,Consolas",
+  "editor.fontWeight": "normal",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.fontLigatures": true,
+  "editor.suggestSelection": "first",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#FFF",
+    "terminalCursor.foreground": "#FFF"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.autoSave": "off",
+  "editor.fontSize": 15,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.excludeLanguages": ["markdown"],
+  "vim.handleKeys": {
+    "<C-d>": true,
+    "<C-a>": false,
+    "<C-c>": false,
+    "<C-x>": false,
+    "<C-v>": false,
+    "<C-w>": false,
+    "<C-pageup>": false,
+    "<C-pagedown>": false
+  },
+  "explorer.compactFolders": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "bracket-pair-colorizer-2.activeScopeCSS": [
+    "borderStyle : solid",
+    "borderWidth : 1px",
+    "borderColor : {color}",
+    "opacity: 0.5"
+  ],
+  // "bracket-pair-colorizer-2.colors": ["blue", "green", "red"],
+  // "bracket-pair-colorizer-2.colors": ["#6666ff", "#3333ff", "#000099"],
+  "bracket-pair-colorizer-2.colors": ["Gold", "Orchid", "LightSkyBlue"],
+  "window.zoomLevel": 0,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.detectIndentation": false,
+  "vim.cursorStylePerMode.normal": "block-outline",
+  "editor.tabSize": 2,
+  "workbench.iconTheme": "material-icon-theme",
+  "window.restoreWindows": "none",
+  "workbench.editor.untitled.hint": "hidden"
+}
