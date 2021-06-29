@@ -11,6 +11,7 @@ export PATH=$PATH:$MAVEN_HOME/bin
 export PATH=$PATH:/opt/homebrew/bin
 export PATH=$PATH:/Users/johnbonda/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin
 export PATH=$PATH:/Users/johnbonda/scripts/path
+export PATH=$PATH:/Users/johnbonda/devtools/mongodb-macos-x86_64-4.4.6/bin
 
 # Aliases
 alias vim=nvim
