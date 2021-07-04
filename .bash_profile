@@ -17,7 +17,7 @@ export PATH=$PATH:/Users/johnbonda/devtools/mongodb-macos-x86_64-4.4.6/bin
 alias vim=nvim
 
 # Customized bash prompt
-PS1="\e[0;35m\u\e[0m [\e[1;36m\w\e[0m]\$ "
+PS1="\[\e[35m\]\u\[\e[m\] [\[\e[36m\]\w\[\e[m\]]\\$ "
 
 # ls colors
 export CLICOLOR=1
