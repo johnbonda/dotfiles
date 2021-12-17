@@ -3,7 +3,8 @@ set -o vi
 
 #Environment Variables
 #export JAVA_HOME=/Users/johnbonda/Library/Java/JavaVirtualMachines/openjdk-16.0.1/Contents/Home
-export JAVA_HOME=/Users/johnbonda/devtools/jdk8u302-b08/Contents/Home
+#export JAVA_HOME=/Users/johnbonda/devtools/jdk8u302-b08/Contents/Home
+export JAVA_HOME=/Users/johnbonda/devtools/jdk-16.0.2.jdk/Contents/Home
 export MAVEN_HOME=/Users/johnbonda/devtools/apache-maven-3.8.1
 export M2_HOME=$MAVEN_HOME
 export GRADLE_HOME=/Users/johnbonda/devtools/gradle-7.1.1
@@ -27,3 +28,8 @@ PS1="\[\e[35m\]\u\[\e[m\] [\[\e[36m\]\w\[\e[m\]]\\$ "
 export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 
+
+# Setting PATH for Python 3.10
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.10/bin:${PATH}"
+export PATH
