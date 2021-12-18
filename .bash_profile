@@ -22,7 +22,7 @@ export PATH=$PATH:/Applications/IntelliJ\ IDEA\ CE.app/Contents/MacOS
 alias vim=nvim
 
 # Customized bash prompt
-PS1="\[\e[35m\]\u\[\e[m\] [\[\e[36m\]\w\[\e[m\]]\\$ "
+PS1="\[\e[35m\]\u\[\e[m\][\[\e[36m\]\W\[\e[m\]]\\$ "
 
 # ls colors
 export CLICOLOR=1
