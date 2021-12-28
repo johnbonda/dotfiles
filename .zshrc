@@ -1,4 +1,5 @@
 bindkey -v
+bindkey '^R' history-incremental-search-backward
 
 #Environment Variables
 #export JAVA_HOME=/Users/johnbonda/Library/Java/JavaVirtualMachines/openjdk-16.0.1/Contents/Home
