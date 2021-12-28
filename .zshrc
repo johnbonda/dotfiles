@@ -1,4 +1,4 @@
-set -o vi
+bindkey -v
 
 #Environment Variables
 #export JAVA_HOME=/Users/johnbonda/Library/Java/JavaVirtualMachines/openjdk-16.0.1/Contents/Home
