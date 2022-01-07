@@ -34,3 +34,5 @@ nnoremap <C-H> <C-W><C-H>
 
 set splitbelow
 set splitright
+
+let g:is_bash=1
