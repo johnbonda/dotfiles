@@ -20,6 +20,7 @@ export PATH=$PATH:/Applications/IntelliJ\ IDEA\ CE.app/Contents/MacOS
 
 # Aliases
 alias vim=nvim
+alias ls='ls --color=auto'
 
 # Customized bash prompt
 PROMPT="%F{magenta}%n%f[%F{cyan}%c%f] "
