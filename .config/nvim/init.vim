@@ -37,4 +37,4 @@ set splitright
 
 let g:is_bash=1
 
-set clipboard=unnamed
+" set clipboard=unnamedplus
